@@ -20,10 +20,10 @@ composer require jobbrander/jobs-authenticjobs
 
 ## Usage
 
-Usage is the same as Job Branders's Jobs Client, using `\JobBrander\Jobs\Client\Provider\AuthenticJobs` as the provider.
+Usage is the same as Job Branders's Jobs Client, using `\JobBrander\Jobs\Client\Providers\AuthenticJobs` as the provider.
 
 ```php
-$client = new JobBrander\Jobs\Client\Provider\AuthenticJobs([
+$client = new JobBrander\Jobs\Client\Providers\AuthenticJobs([
     'key' => 'YOUR API KEY',
 ]);
 
